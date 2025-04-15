@@ -16,6 +16,8 @@
     </div>
 }
 
+<h2>@ViewData["Title"]</h2>
+
 @using (Html.BeginForm("Crear", "Libros", FormMethod.Post))
 {
     @Html.AntiForgeryToken()

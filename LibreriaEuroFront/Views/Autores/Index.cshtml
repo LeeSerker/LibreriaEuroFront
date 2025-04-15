@@ -5,9 +5,29 @@
 }
 
 
+@if (TempData["MensajeExito"] != null)
+{
+    <div class="alert alert-success show fade">
+        @Html.Raw(TempData["MensajeExito"])
+    </div>
+}
+
 
 <h2>@ViewData["Title"]</h2>
 
 <partial name="_Buscador" />
 
 <partial name="_ResultadoBusqueda" />
+
+
+@section Scripts {
+    <script>
+        setTimeout(function () {
+            const alert = document.querySelector(".alert");
+            if (alert) {
+                alert.classList.add("fade");
+                setTimeout(() => alert.remove(), 1000); // esperar que la animación termine y eliminarlo
+            }
+        }, 5000); // 5 segundos
+    </script>
+}
