@@ -1,11 +1,13 @@
-﻿namespace LibreriaEuroFront.Models;
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
+
+
+namespace LibreriaEuroFront.Models;
 
 public partial class AutorDTO
 {
-    //public int Id { get; set; }
-    [Required]
+    [Required(ErrorMessage = "El RUT es obligatorio")]
+    [RutChileno(ErrorMessage = "El RUT ingresado no es válido")]
     public string Rut { get; set; } = null!;
     [Required]
     public string NombreCompleto { get; set; } = null!;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k4vZfOhOUh8=",
+  "dgSpecHash": "378LVxucRA0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\LibreriaEuroFront.csproj",
+  "projectFilePath": "C:\\Users\\Win11 Pro\\Desktop\\git\\LibreriaEuroFront\\LibreriaEuroFront\\LibreriaEuroFront.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Win11 Pro\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

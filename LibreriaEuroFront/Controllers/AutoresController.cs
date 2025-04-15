@@ -57,63 +57,28 @@ namespace LibreriaEuro.FrontMVC.Controllers
             return View(autor);
         }
 
-        // GET: Autores/Modificar/rut
         [HttpGet]
-        public async Task<IActionResult> Modificar(string rutAutor)
+        public async Task<IActionResult> Buscar(string? rut, string? nombreCompleto)
         {
-            var response = await _httpClient.GetAsync($"Autores/{rutAutor}");
-            if (!response.IsSuccessStatusCode)
-                return RedirectToAction("Index");
+            var query = "Buscar?";
 
-            var json = await response.Content.ReadAsStringAsync();
-            var autor = JsonConvert.DeserializeObject<AutorDTO>(json);
+            if (!string.IsNullOrEmpty(rut))
+                query += $"rut={rut}&";
 
-            return View(autor);
-        }
+            if (!string.IsNullOrEmpty(nombreCompleto))
+                query += $"nombreCompleto={nombreCompleto}&";
 
-        // POST: Autores/Editar
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Modificar(string rutAutor, AutorDTO autor)
-        {
-            if (!ModelState.IsValid)
-                return View(autor);
-
-            var response = await _httpClient.PutAsJsonAsync($"Autores/{rutAutor}", autor);
-            if (response.IsSuccessStatusCode)
-                return RedirectToAction("Index");
-
-            var error = await response.Content.ReadAsStringAsync();
-            ModelState.AddModelError(string.Empty, $"Error: {error}");
-            return View(autor);
-        }
-
-        // GET: Autores/Eliminar/rut
-        [HttpGet]
-        public async Task<IActionResult> Eliminar(string rutAutor)
-        {
-            var response = await _httpClient.GetAsync($"Autores/{rutAutor}");
-            if (!response.IsSuccessStatusCode)
-                return RedirectToAction("Index");
-
-            var autor = JsonConvert.DeserializeObject<AutorDTO>(await response.Content.ReadAsStringAsync());
-            return View(autor);
-        }
-
-        // POST: Autores/Eliminar/rut
-        [HttpPost, ActionName("Eliminar")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EliminarConfirmado(string rutAutor)
-        {
-            var response = await _httpClient.DeleteAsync($"Autores/{rutAutor}");
+            var response = await _httpClient.GetAsync($"Autores/{query}");
 
             if (response.IsSuccessStatusCode)
-                return RedirectToAction("Index");
+            {
+                var json = await response.Content.ReadAsStringAsync();
+                var autores = JsonConvert.DeserializeObject<List<AutorDTO>>(json);
+                return View("_ResultadoBusqueda", autores);
+            }
 
-            ModelState.AddModelError(string.Empty, "Error al eliminar el autor.");
-            return RedirectToAction("Index");
+            return View("_ResultadoBusqueda", new List<AutorDTO>());
         }
-
 
     }
 }

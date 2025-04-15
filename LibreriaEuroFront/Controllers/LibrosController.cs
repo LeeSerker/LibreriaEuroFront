@@ -58,7 +58,6 @@ namespace LibreriaEuro.FrontMVC.Controllers
 
                 if (errorMessage == "AutorNoExiste")
                 {
-                    
                     salidaError = "El rut ingresado no está registrado como autor.";
                 }
 
@@ -70,20 +69,6 @@ namespace LibreriaEuro.FrontMVC.Controllers
                 return View(libro);
             }
         }
-
-
-        /*public async Task<IActionResult> Buscar(string? rutAutor, string? autor, string? titulo, int? anno)
-        {
-            using var http = new HttpClient();
-            if (anno <= 0)
-            {
-                anno = null;
-            }
-            var url = $"{_apiLink}api/libro/buscar?rutAutor={rutAutor}&autor={autor}&titulo={titulo}&año={anno}";
-
-            var libros = await http.GetFromJsonAsync<List<LibroDTO>>(url);
-            return View("_Buscador", libros);
-        }*/
 
         [HttpGet]
         public async Task<IActionResult> Buscar(string? rutAutor, string? nombreAutor, string? titulo, int? anno)

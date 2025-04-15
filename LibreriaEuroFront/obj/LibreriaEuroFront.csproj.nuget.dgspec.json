@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\LibreriaEuroFront.csproj": {}
+    "C:\\Users\\Win11 Pro\\Desktop\\git\\LibreriaEuroFront\\LibreriaEuroFront\\LibreriaEuroFront.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\LibreriaEuroFront.csproj": {
+    "C:\\Users\\Win11 Pro\\Desktop\\git\\LibreriaEuroFront\\LibreriaEuroFront\\LibreriaEuroFront.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\LibreriaEuroFront.csproj",
+        "projectUniqueName": "C:\\Users\\Win11 Pro\\Desktop\\git\\LibreriaEuroFront\\LibreriaEuroFront\\LibreriaEuroFront.csproj",
         "projectName": "LibreriaEuroFront",
-        "projectPath": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\LibreriaEuroFront.csproj",
+        "projectPath": "C:\\Users\\Win11 Pro\\Desktop\\git\\LibreriaEuroFront\\LibreriaEuroFront\\LibreriaEuroFront.csproj",
         "packagesPath": "C:\\Users\\Win11 Pro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\obj\\",
+        "outputPath": "C:\\Users\\Win11 Pro\\Desktop\\git\\LibreriaEuroFront\\LibreriaEuroFront\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

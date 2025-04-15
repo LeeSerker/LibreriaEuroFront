@@ -24,10 +24,11 @@
 
     <div class="row mb-3">
         <div class="col-md-6">
-            <label class="form-label">RUT</label>
-            @Html.TextBoxFor(m => m.Rut, new { @class = "form-control" })
-            @Html.ValidationMessageFor(m => m.Rut, "", new { @class = "text-danger" })
+            <label asp-for="Rut" class="form-label"></label>
+            <input asp-for="Rut" class="form-control" />
+            <span asp-validation-for="Rut" class="text-danger"></span>
         </div>
+
 
         <div class="col-md-6">
             <label class="form-label">Nombre Completo</label>
@@ -59,4 +60,10 @@
     </div>
 
     <button type="submit" class="btn btn-primary">Guardar Autor</button>
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
