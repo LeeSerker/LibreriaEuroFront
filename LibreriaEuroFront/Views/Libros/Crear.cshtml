@@ -1,0 +1,58 @@
+﻿@model LibreriaEuroFront.Models.LibroDTO
+
+@{
+    ViewData["Title"] = "Crear libro";
+}
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+@using (Html.BeginForm("Crear", "Libros", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label asp-for="Titulo" class="form-label">Título</label>
+            @Html.TextBoxFor(m => m.Titulo, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Titulo, "", new { @class = "text-danger" })
+        </div>
+        <div class="col-md-6">
+            <label asp-for="Anno" class="form-label">Año</label>
+            @Html.TextBoxFor(m => m.Anno, new { @class = "form-control", type = "number" })
+            @Html.ValidationMessageFor(m => m.Anno, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label asp-for="Genero" class="form-label">Género</label>
+            @Html.TextBoxFor(m => m.Genero, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Genero, "", new { @class = "text-danger" })
+        </div>
+        <div class="col-md-6">
+            <label asp-for="NumeroDePaginas" class="form-label">Número de Páginas</label>
+            @Html.TextBoxFor(m => m.NumeroDePaginas, new { @class = "form-control", type = "number" })
+            @Html.ValidationMessageFor(m => m.NumeroDePaginas, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label asp-for="RutAutor" class="form-label">RUT del Autor</label>
+            @Html.TextBoxFor(m => m.RutAutor, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.RutAutor, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Libro</button>
+}

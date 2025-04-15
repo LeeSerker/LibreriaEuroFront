@@ -1,0 +1,32 @@
+﻿@model List<LibreriaEuroFront.Models.LibroDTO>
+
+@if (Model != null && Model.Any())
+{
+        <table class="table mt-4">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Año</th>
+                    <th>Género</th>
+                    <th>Páginas</th>
+                    <th>Autor</th>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var libro in Model)
+            {
+                        <tr>
+                            <td>@libro.Titulo</td>
+                            <td>@libro.Anno</td>
+                            <td>@libro.Genero</td>
+                            <td>@libro.NumeroDePaginas</td>
+                            <td>@libro.RutAutor</td>
+                        </tr>
+            }
+            </tbody>
+        </table>
+}
+else
+{
+        <p class="text-muted">No se encontraron libros.</p>
+}

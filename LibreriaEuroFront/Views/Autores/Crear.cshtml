@@ -1,0 +1,62 @@
+﻿@model LibreriaEuroFront.Models.AutorDTO
+
+@{
+    ViewData["Title"] = "Crear Autor";
+}
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<h2>Crear Autor</h2>
+
+@using (Html.BeginForm("Crear", "Autores", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label class="form-label">RUT</label>
+            @Html.TextBoxFor(m => m.Rut, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Rut, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="col-md-6">
+            <label class="form-label">Nombre Completo</label>
+            @Html.TextBoxFor(m => m.NombreCompleto, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.NombreCompleto, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label class="form-label">Fecha de Nacimiento</label>
+            @Html.TextBoxFor(m => m.FechaNacimiento, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+            @Html.ValidationMessageFor(m => m.FechaNacimiento, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="col-md-6">
+            <label class="form-label">Ciudad de Origen</label>
+            @Html.TextBoxFor(m => m.CiudadOrigen, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.CiudadOrigen, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label class="form-label">Email</label>
+            @Html.TextBoxFor(m => m.Mail, new { @class = "form-control", type = "email" })
+            @Html.ValidationMessageFor(m => m.Mail, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Autor</button>
+}

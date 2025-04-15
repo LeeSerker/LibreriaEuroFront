@@ -1,0 +1,284 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|c:\\users\\win11 pro\\source\\repos\\libreriaeurofront\\libreriaeurofront\\models\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|solutionrelative:libreriaeurofront\\models\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|c:\\users\\win11 pro\\source\\repos\\libreriaeurofront\\libreriaeurofront\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|solutionrelative:libreriaeurofront\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|c:\\users\\win11 pro\\source\\repos\\libreriaeurofront\\libreriaeurofront\\views\\autores\\modificar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|solutionrelative:libreriaeurofront\\views\\autores\\modificar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|c:\\users\\win11 pro\\source\\repos\\libreriaeurofront\\libreriaeurofront\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|solutionrelative:libreriaeurofront\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|c:\\users\\win11 pro\\source\\repos\\libreriaeurofront\\libreriaeurofront\\views\\autores\\_resultadobusqueda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|solutionrelative:libreriaeurofront\\views\\autores\\_resultadobusqueda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|c:\\users\\win11 pro\\source\\repos\\libreriaeurofront\\libreriaeurofront\\views\\autores\\_buscador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|solutionrelative:libreriaeurofront\\views\\autores\\_buscador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|c:\\users\\win11 pro\\source\\repos\\libreriaeurofront\\libreriaeurofront\\views\\libros\\modificar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|solutionrelative:libreriaeurofront\\views\\libros\\modificar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|c:\\users\\win11 pro\\source\\repos\\libreriaeurofront\\libreriaeurofront\\views\\autores\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|solutionrelative:libreriaeurofront\\views\\autores\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|c:\\users\\win11 pro\\source\\repos\\libreriaeurofront\\libreriaeurofront\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|solutionrelative:libreriaeurofront\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|c:\\users\\win11 pro\\source\\repos\\libreriaeurofront\\libreriaeurofront\\views\\autores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|solutionrelative:libreriaeurofront\\views\\autores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|c:\\users\\win11 pro\\source\\repos\\libreriaeurofront\\libreriaeurofront\\views\\libros\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|solutionrelative:libreriaeurofront\\views\\libros\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|c:\\users\\win11 pro\\source\\repos\\libreriaeurofront\\libreriaeurofront\\views\\libros\\_buscador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|solutionrelative:libreriaeurofront\\views\\libros\\_buscador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|c:\\users\\win11 pro\\source\\repos\\libreriaeurofront\\libreriaeurofront\\models\\librodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|solutionrelative:libreriaeurofront\\models\\librodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|c:\\users\\win11 pro\\source\\repos\\libreriaeurofront\\libreriaeurofront\\views\\libros\\_resultadobusqueda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7219D63C-229B-40E7-9B23-154F020E6568}|LibreriaEuroFront\\LibreriaEuroFront.csproj|solutionrelative:libreriaeurofront\\views\\libros\\_resultadobusqueda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 313,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutoresController.cs",
+              "DocumentMoniker": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Controllers\\AutoresController.cs",
+              "RelativeDocumentMoniker": "LibreriaEuroFront\\Controllers\\AutoresController.cs",
+              "ToolTip": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Controllers\\AutoresController.cs",
+              "RelativeToolTip": "LibreriaEuroFront\\Controllers\\AutoresController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T00:30:01.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "LibreriaEuroFront\\Controllers\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "LibreriaEuroFront\\Controllers\\LibrosController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwEYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T23:43:29.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Buscador.cshtml",
+              "DocumentMoniker": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Autores\\_Buscador.cshtml",
+              "RelativeDocumentMoniker": "LibreriaEuroFront\\Views\\Autores\\_Buscador.cshtml",
+              "ToolTip": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Autores\\_Buscador.cshtml",
+              "RelativeToolTip": "LibreriaEuroFront\\Views\\Autores\\_Buscador.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T10:04:39.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ResultadoBusqueda.cshtml",
+              "DocumentMoniker": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Autores\\_ResultadoBusqueda.cshtml",
+              "RelativeDocumentMoniker": "LibreriaEuroFront\\Views\\Autores\\_ResultadoBusqueda.cshtml",
+              "ToolTip": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Autores\\_ResultadoBusqueda.cshtml",
+              "RelativeToolTip": "LibreriaEuroFront\\Views\\Autores\\_ResultadoBusqueda.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T10:04:58.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Modificar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Libros\\Modificar.cshtml",
+              "RelativeDocumentMoniker": "LibreriaEuroFront\\Views\\Libros\\Modificar.cshtml",
+              "ToolTip": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Libros\\Modificar.cshtml",
+              "RelativeToolTip": "LibreriaEuroFront\\Views\\Libros\\Modificar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T21:59:46.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Autores\\Crear.cshtml",
+              "RelativeDocumentMoniker": "LibreriaEuroFront\\Views\\Autores\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Autores\\Crear.cshtml",
+              "RelativeToolTip": "LibreriaEuroFront\\Views\\Autores\\Crear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T18:44:33.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LibreriaEuroFront\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LibreriaEuroFront\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T00:15:56.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Models\\AutorDTO.cs",
+              "RelativeDocumentMoniker": "LibreriaEuroFront\\Models\\AutorDTO.cs",
+              "ToolTip": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Models\\AutorDTO.cs",
+              "RelativeToolTip": "LibreriaEuroFront\\Models\\AutorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:54:32.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Modificar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Autores\\Modificar.cshtml",
+              "RelativeDocumentMoniker": "LibreriaEuroFront\\Views\\Autores\\Modificar.cshtml",
+              "ToolTip": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Autores\\Modificar.cshtml",
+              "RelativeToolTip": "LibreriaEuroFront\\Views\\Autores\\Modificar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T21:58:23.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Autores\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibreriaEuroFront\\Views\\Autores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Autores\\Index.cshtml",
+              "RelativeToolTip": "LibreriaEuroFront\\Views\\Autores\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T10:04:23.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Libros\\Crear.cshtml",
+              "RelativeDocumentMoniker": "LibreriaEuroFront\\Views\\Libros\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Libros\\Crear.cshtml",
+              "RelativeToolTip": "LibreriaEuroFront\\Views\\Libros\\Crear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T10:39:07.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Buscador.cshtml",
+              "DocumentMoniker": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Libros\\_Buscador.cshtml",
+              "RelativeDocumentMoniker": "LibreriaEuroFront\\Views\\Libros\\_Buscador.cshtml",
+              "ToolTip": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Libros\\_Buscador.cshtml",
+              "RelativeToolTip": "LibreriaEuroFront\\Views\\Libros\\_Buscador.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T00:41:10.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LibroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Models\\LibroDTO.cs",
+              "RelativeDocumentMoniker": "LibreriaEuroFront\\Models\\LibroDTO.cs",
+              "ToolTip": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Models\\LibroDTO.cs",
+              "RelativeToolTip": "LibreriaEuroFront\\Models\\LibroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:57:41.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ResultadoBusqueda.cshtml",
+              "DocumentMoniker": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Libros\\_ResultadoBusqueda.cshtml",
+              "RelativeDocumentMoniker": "LibreriaEuroFront\\Views\\Libros\\_ResultadoBusqueda.cshtml",
+              "ToolTip": "C:\\Users\\Win11 Pro\\source\\repos\\LibreriaEuroFront\\LibreriaEuroFront\\Views\\Libros\\_ResultadoBusqueda.cshtml",
+              "RelativeToolTip": "LibreriaEuroFront\\Views\\Libros\\_ResultadoBusqueda.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T06:53:10.026Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 87,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

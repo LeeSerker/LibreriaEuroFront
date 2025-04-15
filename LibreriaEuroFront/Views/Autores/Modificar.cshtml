@@ -1,0 +1,46 @@
+﻿@model List<LibreriaEuroFront.Models.AutorDTO>
+
+@{
+    ViewData["Title"] = "Autores";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Listado de Autores</h2>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>RUT</th>
+                <th>Nombre Completo</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Ciudad Origen</th>
+                <th>Correo</th>
+                <th class="text-center">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var autor in Model)
+            {
+                <tr>
+                    <td>@autor.Rut</td>
+                    <td>@autor.NombreCompleto</td>
+                    <td>@autor.FechaNacimiento.ToShortDateString()</td>
+                    <td>@autor.CiudadOrigen</td>
+                    <td>@autor.Mail</td>
+                    <td class="text-center">
+                        <a href="@Url.Action("Editar", "Autores", new { id = autor.Rut })" class="btn btn-sm btn-warning me-1">
+                            <i class="bi bi-pencil-square"></i> Editar
+                        </a>
+                        <a href="@Url.Action("Eliminar", "Autores", new { id = autor.Rut })" class="btn btn-sm btn-danger" onclick="return confirm('¿Estás seguro de eliminar este autor?');">
+                            <i class="bi bi-trash"></i> Eliminar
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a href="@Url.Action("Crear", "Autores")" class="btn btn-success">
+        <i class="bi bi-plus-circle"></i> Nuevo Autor
+    </a>
+</div>
